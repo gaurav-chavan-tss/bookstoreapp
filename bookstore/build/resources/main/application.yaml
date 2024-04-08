@@ -1,0 +1,14 @@
+spring.datasource.url: jdbc:h2:mem:bookstoreDB
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+# swagger
+spring-doc:
+  swagger-ui:
+    path: /swagger
+spring:
+
+  jpa:
